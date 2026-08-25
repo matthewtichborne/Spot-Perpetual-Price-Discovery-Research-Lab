@@ -1,0 +1,5 @@
+market_type,symbol,aggregate_trade_id,price,quantity,first_trade_id,last_trade_id,transact_time,is_buyer_maker
+spot,BTCUSDT,1,100.0,0.5,10,10,1735776000000000,false
+perpetual,BTCUSDT,2,100.1,0.2,20,20,1735776000001,true
+spot,BTCUSDT,3,100.2,0.1,11,11,1735776001000000,true
+perpetual,BTCUSDT,4,100.3,0.4,21,22,1735776001002,false

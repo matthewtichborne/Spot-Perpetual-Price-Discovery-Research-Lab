@@ -1,0 +1,15 @@
+# Placeholder only. Dates must be frozen in docs/research_design.md before this
+# configuration may be used to access a holdout.
+name: final-holdout-sealed
+data:
+  base_url: https://data.binance.vision
+  symbols: [BTCUSDT, ETHUSDT]
+  markets: [spot, perpetual]
+  dates:
+    start: 2025-02-01
+    end: 2025-03-02
+  raw_dir: data/raw
+research:
+  target_horizon_seconds: 5
+  holdout_status: sealed
+  random_seed: 20260825
