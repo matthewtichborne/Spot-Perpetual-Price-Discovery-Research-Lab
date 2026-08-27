@@ -4,7 +4,7 @@
 
 The frozen final holdout supports the statistical price-discovery hypothesis but not
 the registered trading hypothesis. On 863,926 eligible BTCUSDT observations from
-2025-02-21 through 2025-03-02, the Phase 5-selected XGBoost/expanded model achieved
+2025-02-21 through 2025-03-02, the prespecified XGBoost/expanded model achieved
 training-mean-referenced OOS R-squared of 0.017629, Pearson IC of 0.133406 and rank IC
 of 0.198230. Mean realised returns rose monotonically across all ten prediction
 deciles, from -5.946e-5 in the bottom decile to +6.213e-5 in the top decile.
@@ -20,9 +20,9 @@ does not survive the prespecified friction assumption.
 ## Design and provenance
 
 Development covered 2025-01-02–2025-01-31; confirmation covered
-2025-02-01–2025-02-20; the final period was kept sealed until Phase 8. Before opening,
-the model, target, expanded feature list, training subsample, economic threshold,
-latency, holding period, cost and evaluator were content-hashed. The evaluator passed
+2025-02-01–2025-02-20; the final period remained sealed until the one-time evaluation.
+Before opening, the model, target, expanded feature list, training subsample, economic
+threshold, latency, holding period, cost and evaluator were content-hashed. The evaluator passed
 all 54 project tests, including a synthetic end-to-end one-time test, before access.
 
 The final model was then refit once on 863,929 registered every-five-second training

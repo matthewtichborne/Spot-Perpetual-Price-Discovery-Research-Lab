@@ -1,6 +1,6 @@
 # Feature dictionary
 
-Status: Phase 3 feature schema version 1.
+Status: feature schema version 1.
 
 All predictor columns are calculated on right-labelled 100 ms bars and shifted by
 one complete base bar before sampling one-second decision rows. Therefore the

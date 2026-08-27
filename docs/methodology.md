@@ -2,7 +2,7 @@
 
 ## Acquisition and normalisation
 
-The Phase 2 pipeline constructs official Binance daily aggregate-trade URLs from a
+The acquisition pipeline constructs official Binance daily aggregate-trade URLs from a
 strict configuration. Each ZIP and its `.CHECKSUM` sidecar are downloaded without
 credentials. Writes are atomic, cached files are reused only after SHA-256
 verification, and a corrupted cache entry is redownloaded.
@@ -45,11 +45,11 @@ a separate label step. Unavailable daily-tail horizons remain null. The generate
 feature validator checks unique chronological decisions, strict feature cutoffs,
 finite numeric values and imbalance bounds before atomically writing Parquet.
 
-## Frozen Phase 4 walk-forward analysis
+## Walk-forward analysis
 
 The research design and development, confirmation and final configurations were
 SHA-256 recorded before the remaining development archives were downloaded. BTC is
-the primary Phase 4 asset; the target is the next five-second spot log return, with
+the primary asset; the target is the next five-second spot log return, with
 direction as a secondary target. The 30 development days form four expanding folds:
 10, 15, 20 and 25 training days, each followed by five evaluation days. A ten-second
 purge is removed from the end of training and a ten-second embargo from the start of
@@ -60,7 +60,7 @@ volatility variables. The expanded set adds 15 fixed perpetual and cross-market
 variables. Median imputation and standardisation are learned independently inside
 each training fold. Models comprise training-mean and zero references, unregularised
 linear regression, fixed Ridge (`alpha=1`) and fixed logistic regression (`C=1`); no
-Phase 4 evaluation fold is used for tuning.
+evaluation fold is used for tuning.
 
 Regression reports include training-mean-referenced OOS R-squared, MSE, MAE and
 linear/rank information coefficients. Classification reports include ROC AUC,
@@ -71,9 +71,9 @@ daily MSE. Separate interpretive OLS uses a prespecified parsimonious subset, ev
 fifth decision row and Newey-West standard errors with 12 lags. This inference is not
 used to select or tune the predictive models.
 
-## Frozen Phase 5 confirmation and robustness
+## Confirmation and robustness
 
-Before accessing February confirmation archives, the Phase 5 protocol fixed a
+Before accessing February confirmation archives, the frozen protocol fixed a
 four-candidate XGBoost grid, January-only tuning split, robustness definitions and a
 conservative final-selection rule. XGBoost uses histogram trees, expanded features,
 every fifth development row and four combinations of depth two/three with 100/200
@@ -92,13 +92,13 @@ paired block bootstraps contain 2,000 deterministic replicates.
 XGBoost may replace Ridge only when its confirmation OOS R-squared exceeds expanded
 Ridge by at least 0.001 and the lower endpoint of the daily Ridge-minus-XGBoost MSE
 bootstrap interval is positive. Both conditions held. The resulting XGBoost depth-2,
-200-tree expanded specification is frozen for a single later final-holdout evaluation;
-the holdout itself remains sealed.
+200-tree expanded specification was frozen for the later one-time holdout evaluation.
 
-## Frozen Phase 6 execution and portfolio analysis
+## Execution and portfolio analysis
 
-Phase 6 keeps the predictive models fixed and converts their untouched-confirmation
-predictions into sparse directional signals. BTC uses the selected XGBoost model;
+The execution analysis keeps the predictive models fixed and converts their
+untouched-confirmation predictions into sparse directional signals. BTC uses the
+selected XGBoost model;
 ETH uses the prespecified expanded Ridge replication. Each threshold is one standard
 deviation of January 27–31 validation predictions, so no February return or execution
 result calibrates trading frequency.
@@ -122,13 +122,13 @@ secondary. Daily returns, daily Sharpe/Sortino, drawdown, win/loss statistics,
 turnover, exposure, break-even cost, regime splits and P&L concentration are computed
 from reconciled trade ledgers. Trade-level observations are never annualised.
 
-## Phase 7 bounded C++ replay
+## Bounded C++ replay
 
 Profiling a 200,000-event pure-Python two-market replay isolated its event loop as the
 bounded acceleration target. The reference merges non-decreasing spot/perpetual
 streams and emits right-labelled 100 ms base aggregates: carried last price, unsigned
 and signed quantity/notional, and buyer/seller/total counts. Events on a grid boundary
-enter the next bar, matching the Phase 3 causal cutoff convention.
+enter the next bar, matching the feature pipeline's causal cutoff convention.
 
 The C++20 implementation uses contiguous NumPy views through pybind11, performs the
 same merge and aggregation, then returns owned NumPy arrays. It does not accelerate
@@ -143,11 +143,11 @@ with the same arrays; medians determine throughput and speed-up. Synthetic gener
 imports, parity checking and JSON output are excluded. The result therefore describes
 only equivalent in-memory replay-kernel work.
 
-## Frozen Phase 8 final evaluation
+## Final holdout evaluation
 
-Before final access, Phase 8 fixed and hashed the sole model, target, feature list,
-training sample, predictive metrics and economic assumptions. The evaluator was
-tested end to end on synthetic data and refuses to run whenever a final-evaluation
+Before final access, the evaluation protocol fixed and hashed the sole model, target,
+feature list, training sample, predictive metrics and economic assumptions. The
+evaluator was tested end to end on synthetic data and refuses to run whenever a final-evaluation
 manifest exists. The immutable sealed configuration remains alongside a distinct,
 content-hashed one-time open configuration.
 
@@ -156,8 +156,8 @@ plus confirmation, then scored every eligible final row. OOS R-squared uses the 
 of all eligible pre-final targets as its reference. Daily metrics and equal-count
 prediction deciles were generated without selection.
 
-The economic test inherited Phase 6's BTC threshold, fixed unit size, 500 ms latency,
-five-second hold and 7 bps round-trip cost. Positions do not overlap; entry and exit
-use the first observed future spot trades. No final observation was used to choose a
+The economic test inherited the confirmation-calibrated BTC threshold, fixed unit
+size, 500 ms latency, five-second hold and 7 bps round-trip cost. Positions do not
+overlap; entry and exit use the first observed future spot trades. No final observation was used to choose a
 parameter. Gross and net outcomes, their daily paths and exact artifact hashes are
 retained in the final manifest.
