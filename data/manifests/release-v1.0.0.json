@@ -1,0 +1,10 @@
+{
+  "artifact_checksums_sha256": "b7f24c083e2f696f4ae0f1997bc2541e352e02506e7b1857c9fb829ddbb86de8",
+  "final_evaluation_file_sha256": "f0d0cba3fe0f55254c2e7481cc51ca38080afbb9c3277193e6bdc9ede776f9d3",
+  "final_evaluation_manifest_hash": "3c2edcd0787106eb990af0d44ca7ffd8922cdead33c87d3cf2f669931a12d0f7",
+  "implementation_commit": "67b9d4bae7b9ca32771312823259b4281df252e6",
+  "raw_and_processed_data_tracked": false,
+  "sealed_config_sha256": "a4c8dfaf5ca2af0087966844b753b2a65573dd096d5c4c6e836b589cceb1f504",
+  "tag": "v1.0.0",
+  "version": "1.0.0"
+}
