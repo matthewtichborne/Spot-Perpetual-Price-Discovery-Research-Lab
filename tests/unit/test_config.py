@@ -3,7 +3,7 @@ from pathlib import Path
 import pytest
 from pydantic import ValidationError
 
-from spot_perp_lab.config import AppConfig, load_config
+from spot_perp_lab.config import AppConfig, FeatureConfig, load_config
 
 
 def test_smoke_config_loads() -> None:
@@ -38,3 +38,8 @@ def test_reversed_dates_are_rejected() -> None:
                 },
             }
         )
+
+
+def test_feature_intervals_must_align_to_base_grid() -> None:
+    with pytest.raises(ValidationError, match="multiples of base_interval_ms"):
+        FeatureConfig(base_interval_ms=100, windows_ms=(150,))

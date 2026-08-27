@@ -1,0 +1,51 @@
+{
+  "config_name": "btc-two-day-smoke",
+  "files": [
+    {
+      "date": "2025-01-02",
+      "market_type": "perpetual",
+      "parquet_file": "data/processed/symbol=BTCUSDT/market_type=perpetual/date=2025-01-02/trades.parquet",
+      "parquet_sha256": "894473300e85e1d9047cf088a7958f886d33a89b037759e9a6a43885c099f40c",
+      "raw_file": "data/raw/market_type=perpetual/symbol=BTCUSDT/BTCUSDT-aggTrades-2025-01-02.zip",
+      "raw_sha256": "7714f1084931a01b1474db471e9cebd747575dbccc6c94dbb1b289b317128f55",
+      "row_count": 1505248,
+      "symbol": "BTCUSDT",
+      "timestamp_unit": "ms"
+    },
+    {
+      "date": "2025-01-02",
+      "market_type": "spot",
+      "parquet_file": "data/processed/symbol=BTCUSDT/market_type=spot/date=2025-01-02/trades.parquet",
+      "parquet_sha256": "ab20a499e0b2cc89619586dbd3cd16b82ea640cf6f8b7f3d5c80f82d39b5e28c",
+      "raw_file": "data/raw/market_type=spot/symbol=BTCUSDT/BTCUSDT-aggTrades-2025-01-02.zip",
+      "raw_sha256": "f7f032f4eef277809ac0d688eb27b48767123211cd938185c171906c4208118c",
+      "row_count": 1299165,
+      "symbol": "BTCUSDT",
+      "timestamp_unit": "us"
+    },
+    {
+      "date": "2025-01-03",
+      "market_type": "perpetual",
+      "parquet_file": "data/processed/symbol=BTCUSDT/market_type=perpetual/date=2025-01-03/trades.parquet",
+      "parquet_sha256": "9ef47705871a2d57ba24ab77baddd602ae9ef9b478a81a4a68c19bd09f29efb7",
+      "raw_file": "data/raw/market_type=perpetual/symbol=BTCUSDT/BTCUSDT-aggTrades-2025-01-03.zip",
+      "raw_sha256": "6e18d9af5e27044badeb2545df656701cdd87f3be8158367c966cfcffd2b3d34",
+      "row_count": 1049539,
+      "symbol": "BTCUSDT",
+      "timestamp_unit": "ms"
+    },
+    {
+      "date": "2025-01-03",
+      "market_type": "spot",
+      "parquet_file": "data/processed/symbol=BTCUSDT/market_type=spot/date=2025-01-03/trades.parquet",
+      "parquet_sha256": "e8a8cce32ed4c1a2baf3f8668795d524790a78f202acbf70bcfb52fc53a15fa8",
+      "raw_file": "data/raw/market_type=spot/symbol=BTCUSDT/BTCUSDT-aggTrades-2025-01-03.zip",
+      "raw_sha256": "1bc9e39f222a6ca80a8586944a85a669fce50ad4c2939210bd73a8a56f248218",
+      "row_count": 1010210,
+      "symbol": "BTCUSDT",
+      "timestamp_unit": "us"
+    }
+  ],
+  "manifest_hash": "394e8274aa0a2ce38d1d9fba66d3b1a7d012b6dda91291d7ab7937a5bf8701bf",
+  "schema_version": "1"
+}

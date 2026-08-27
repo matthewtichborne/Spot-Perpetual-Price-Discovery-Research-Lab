@@ -1,0 +1,11 @@
+{
+  "economic_results_present_at_freeze": false,
+  "final_config_sha256": "a4c8dfaf5ca2af0087966844b753b2a65573dd096d5c4c6e836b589cceb1f504",
+  "final_holdout_status": "sealed",
+  "final_model_specification_file_sha256": "93bbdddc5fa7baf421ba7bd447715c12c12a897b4f6492716e8a7370db71fa4f",
+  "freeze_date": "2026-08-26",
+  "phase5_manifest_file_sha256": "b20f21ab31570d70c387d91899c49e9ab2753fcc21e0a03f301a9d2bf98fbdc2",
+  "phase6_config_sha256": "d4d11bc727cee1402bb14f442e3c0790aca3801654f781dee0a32347bd8c1369",
+  "phase6_protocol_sha256": "b28a65651d97eca5093370956d49688ee74fd0505f0406c24edc7b988f2b5584",
+  "status": "frozen_before_economic_backtest"
+}

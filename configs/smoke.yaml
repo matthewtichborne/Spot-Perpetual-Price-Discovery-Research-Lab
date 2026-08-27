@@ -7,7 +7,20 @@ data:
     start: 2025-01-02
     end: 2025-01-03
   raw_dir: data/raw
+  processed_dir: data/processed
+  manifest_dir: data/manifests
 research:
   target_horizon_seconds: 5
   holdout_status: not_applicable
+  design_status: preliminary
+  primary_symbol: BTCUSDT
+  reports_dir: reports/development
   random_seed: 20260825
+features:
+  base_interval_ms: 100
+  decision_interval_ms: 1000
+  windows_ms: [100, 500, 1000, 5000, 10000]
+  label_horizons_ms: [1000, 5000, 10000]
+  basis_z_window_ms: 10000
+  feature_lag_bars: 1
+  output_dir: data/processed/features

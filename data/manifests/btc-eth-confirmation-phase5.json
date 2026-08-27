@@ -1,0 +1,49 @@
+{
+  "confirmation_config": "btc-eth-confirmation",
+  "development_config": "btc-eth-development",
+  "failures": 0,
+  "feature_manifest_hashes": {
+    "btc-eth-confirmation": "6700a50fa80ea52c01448696d547bc9149eed0d1b5ea997cfda80524a714d523",
+    "btc-eth-development": "09ca1436a008689081441071f439ac6e13d4fbc7a5689876e82f5e21eafe1f3c"
+  },
+  "final_specification_hash": "fe69b128d018481b8db3e663668e012f3d5bd964f68316d9d0d1fde36deac570",
+  "manifest_hash": "cb6ba4b23fd5e647a2e29ab5eee1169c5c53049b6b80b40911f2ac435390b97f",
+  "outputs": {
+    "bootstrap": "d987dde8b19b2d9bda355a630599904f77e1cfe70f71dd9097b68099c9e302f8",
+    "daily_metrics": "0d8c8fcd45e055303d64723cc0f38ac4a30292d7faa073985b1fe0900328c144",
+    "eth_replication": "5ea7860c1dc97b751e04b6fd1fa9f5ace1391ad96f0be1e8fda7aad88c36da90",
+    "failures": "54b19d5aaa644494c55e2cc4b51b5c2acfd47e0a296c83e5c6122ae3dd159b84",
+    "horizons": "bc5df27f670c639374fac742503dbc53f10f8a934bff34941a80a5e5ddf1efe2",
+    "model_metrics": "7add2375259c740e26602555aac0b38ef904b03543a336ae2c93147e734c7bc1",
+    "placebo": "95a4b077e06797048614bd9f8a64ac85fe7fd5200e99d898e9d04ba3e4a34e56",
+    "regimes": "98f462ecb9173be7c1427548557049722b85ddd383079fc90b98e03c895755cb",
+    "summary": "d58735d4cae43cbf1178a68b54e41ddf60dc7ae8735a3d679f8675d0b1f2f897",
+    "xgboost_tuning": "cd92e0880faadfce1e0484da06c3a3ac08f2854464aa1834b904fdf4092a1403"
+  },
+  "phase": 5,
+  "protocol_sha256": "53a36afa5ab52c9d23194b69d405c8e3410ba1efca830b26dcdb5c0e49883013",
+  "random_seed": 20260825,
+  "selected_final_model": "xgboost",
+  "selected_xgboost_parameters": {
+    "max_depth": 2,
+    "n_estimators": 200
+  },
+  "xgboost_grid": [
+    {
+      "max_depth": 2,
+      "n_estimators": 100
+    },
+    {
+      "max_depth": 3,
+      "n_estimators": 100
+    },
+    {
+      "max_depth": 2,
+      "n_estimators": 200
+    },
+    {
+      "max_depth": 3,
+      "n_estimators": 200
+    }
+  ]
+}

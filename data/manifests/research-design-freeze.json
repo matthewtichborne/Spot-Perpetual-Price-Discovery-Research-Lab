@@ -1,0 +1,10 @@
+{
+  "confirmation_config_sha256": "6658feb6e5bfd477493635ed73a9ca6928b785faab085a1ea32d5882c0e565f8",
+  "development_config_sha256": "ab3873243fe71482bf033a4a9bbbc862dd11a8d7d73b02888949ebb8890cf60f",
+  "final_config_sha256": "a4c8dfaf5ca2af0087966844b753b2a65573dd096d5c4c6e836b589cceb1f504",
+  "freeze_date": "2026-08-25",
+  "git_base_commit": "eef2ffeb5d301aed746271c5c956aa93a4be4d17",
+  "research_design_sha256": "f1c6a1ee25ab3e443d58ea5527e6f278d5da5ad300b111a1ab50b714c0e5236d",
+  "status": "frozen_before_remaining_development_download",
+  "final_holdout_status": "sealed"
+}

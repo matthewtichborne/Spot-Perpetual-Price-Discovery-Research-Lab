@@ -1,0 +1,13 @@
+symbol,latency_ms,sizing,trades,skipped_entries,skipped_exits
+BTCUSDT,100,fixed,151952,0,2
+BTCUSDT,500,fixed,148380,0,2
+BTCUSDT,1000,fixed,137960,0,5
+BTCUSDT,2000,fixed,126329,0,4
+BTCUSDT,5000,fixed,101720,3,7
+BTCUSDT,500,inverse_volatility,148380,0,2
+ETHUSDT,100,fixed,191785,0,4
+ETHUSDT,500,fixed,185838,0,4
+ETHUSDT,1000,fixed,172951,0,5
+ETHUSDT,2000,fixed,156936,0,10
+ETHUSDT,5000,fixed,123479,2,19
+ETHUSDT,500,inverse_volatility,185838,0,4

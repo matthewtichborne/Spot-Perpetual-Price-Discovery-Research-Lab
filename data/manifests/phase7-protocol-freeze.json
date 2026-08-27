@@ -1,0 +1,10 @@
+{
+  "benchmark_result_present_at_freeze": false,
+  "final_config_sha256": "a4c8dfaf5ca2af0087966844b753b2a65573dd096d5c4c6e836b589cceb1f504",
+  "final_holdout_status": "sealed",
+  "freeze_date": "2026-08-27",
+  "phase7_protocol_sha256": "3a83878dee5beef29059a73e34c685d7d9c877c83727891b93c6b88120c2b035",
+  "python_profile_sha256": "358f9b4fa99bec223dcaeabfbc122789dea44877062f56a3ac285046a7e68521",
+  "python_reference_sha256": "db7a71b740fb5056fd4b072e84292b7958e1b72c56363e7340474219b3c4833a",
+  "status": "frozen_before_cpp_compilation"
+}

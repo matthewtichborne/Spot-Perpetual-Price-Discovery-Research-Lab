@@ -1,0 +1,58 @@
+{
+  "features": [
+    "spot_log_return_1000ms",
+    "spot_log_return_5000ms",
+    "spot_quantity_imbalance_1000ms",
+    "spot_quantity_imbalance_5000ms",
+    "spot_signed_notional_1000ms",
+    "spot_signed_notional_5000ms",
+    "spot_trade_count_1000ms",
+    "spot_trade_count_5000ms",
+    "spot_notional_1000ms",
+    "spot_notional_5000ms",
+    "spot_realised_volatility_1000ms",
+    "spot_realised_volatility_5000ms",
+    "perpetual_log_return_1000ms",
+    "perpetual_log_return_5000ms",
+    "perpetual_quantity_imbalance_1000ms",
+    "perpetual_quantity_imbalance_5000ms",
+    "perpetual_signed_notional_1000ms",
+    "perpetual_signed_notional_5000ms",
+    "perpetual_trade_count_1000ms",
+    "perpetual_trade_count_5000ms",
+    "perpetual_realised_volatility_1000ms",
+    "perpetual_realised_volatility_5000ms",
+    "spot_perp_log_basis",
+    "spot_perp_basis_change_1000ms",
+    "spot_perp_basis_zscore_10000ms",
+    "perpetual_spot_relative_quantity_1000ms",
+    "perpetual_spot_relative_intensity_1000ms"
+  ],
+  "final_evaluation_dates": {
+    "end": "2025-03-02",
+    "start": "2025-02-21"
+  },
+  "final_holdout_status": "sealed",
+  "model": "xgboost",
+  "parameters": {
+    "colsample_bytree": 0.8,
+    "learning_rate": 0.05,
+    "max_depth": 2,
+    "min_child_weight": 20,
+    "n_estimators": 200,
+    "reg_lambda": 1.0,
+    "subsample": 0.8,
+    "training_subsample_seconds": 5,
+    "tree_method": "hist"
+  },
+  "preprocessing": "development-plus-confirmation fit; median imputation and standardisation for Ridge only",
+  "scope": "expanded",
+  "specification_hash": "fe69b128d018481b8db3e663668e012f3d5bd964f68316d9d0d1fde36deac570",
+  "status": "frozen_after_phase5_before_final_holdout",
+  "target": "target_spot_log_return_5000ms",
+  "training_dates": {
+    "end": "2025-02-20",
+    "start": "2025-01-02"
+  },
+  "xgboost_training_subsample_seconds": 5
+}

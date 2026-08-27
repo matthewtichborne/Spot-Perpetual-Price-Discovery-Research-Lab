@@ -25,5 +25,17 @@ reports/final/*
 !reports/tables/.gitkeep
 !reports/development/.gitkeep
 !reports/final/.gitkeep
+!reports/figures/*-phase3-overview.png
+!reports/tables/*-phase3-summary.csv
+!reports/development/phase4_*
+!reports/development/phase5_*
+!reports/development/phase6_*
+!reports/development/phase7_*
+!reports/figures/phase6-cost-latency.png
+!reports/final/final_*
+!reports/final/final-results.png
+*.so
+*.dylib
 
 .DS_Store
+.Rhistory

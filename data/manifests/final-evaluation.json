@@ -1,0 +1,61 @@
+{
+  "economic": {
+    "annualised_daily_sharpe": -56.78208939531409,
+    "annualised_daily_sortino": -56.78208939531409,
+    "average_holding_seconds": 5.219388591817602,
+    "average_loss": -0.0006897773254060868,
+    "average_win": 0.00032119357586429033,
+    "break_even_roundtrip_bps": 0.32968203580310107,
+    "cost_pnl": 60.48350000000001,
+    "exposure": 0.5219690639768518,
+    "gross_pnl": 2.848617630356695,
+    "holding_seconds": 5,
+    "latency_ms": 500,
+    "maximum_drawdown": -1.0,
+    "net_pnl": -57.634882369643314,
+    "pnl_concentration_largest_day": 0.13825279534102075,
+    "roundtrip_cost_bps": 7.0,
+    "signal_threshold": 3.21160127895846e-05,
+    "skipped_entries": 0,
+    "skipped_exits": 1,
+    "symbol": "BTCUSDT",
+    "trades": 86405,
+    "turnover": 172810.0,
+    "win_rate": 0.02249869799201435
+  },
+  "final_dates": {
+    "end": "2025-03-02",
+    "start": "2025-02-21"
+  },
+  "final_rows": 863926,
+  "ledger_sha256": "6e5b1e5f8a08e6aba35d1f3a39e1cd3d31c731181ec04360e59cd6568a3f458a",
+  "manifest_hash": "3c2edcd0787106eb990af0d44ca7ffd8922cdead33c87d3cf2f669931a12d0f7",
+  "model_specification_hash": "fe69b128d018481b8db3e663668e012f3d5bd964f68316d9d0d1fde36deac570",
+  "one_time_evaluation": true,
+  "open_config_sha256": "68ed690e419722d2c83a3559a583942b8467c786e48237ffef00600ea4a27ece",
+  "opened_at_utc": "2026-08-27T09:45:38.933464+00:00",
+  "outputs": {
+    "daily_economic": "23ee9678394ce0f8ddb8f86e0399044fa94f01ec2fa98f64ddf8015232854bd2",
+    "daily_predictive": "d03509e7c8c00fd2967a2747bf0334b16e3b56635b24b6ea3d3000ef9798a67d",
+    "deciles": "364bb22a93f944dee810a52aba941941a72f96c33493a31b5722ab940b6d6c66",
+    "economic": "54267ebaf7992c5a333a1f2cab8d01f513e43dc01ad4a1aec75e32481242de7b",
+    "figure": "5b2af17c7b44899268e778b4b2a06aa7b89c20d8596a4ef452e942f233b80197",
+    "predictive": "4be061e6f6694b3171ccb1360ed51d4d98e32af25a5e280ba6ed9c01695041a4",
+    "summary": "ec3a47d48c27d72e1762a259cad551d82b06959b33b19f49de15cbc14cc0c521"
+  },
+  "phase": 8,
+  "phase6_manifest_hash": "4fb42df4d371786a489d2eeb3f1c502743715b5c848c2c2d3b9924d16cd8acff",
+  "predictive": {
+    "final_rows": 863926,
+    "mae": 0.0001393234519124953,
+    "mse": 6.499560218979333e-08,
+    "oos_r2": 0.017628788053178912,
+    "pearson_ic": 0.13340610553041765,
+    "rank_ic": 0.198229834317645,
+    "symbol": "BTCUSDT",
+    "target": "target_spot_log_return_5000ms",
+    "train_rows": 863929
+  },
+  "protocol_sha256": "66663593bbcf03a7cda8ae7cb05e699473e21d15e2ec9fa7d1e3d991cb244530",
+  "training_rows": 863929
+}

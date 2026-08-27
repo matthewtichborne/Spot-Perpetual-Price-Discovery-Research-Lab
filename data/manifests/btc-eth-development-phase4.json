@@ -1,0 +1,180 @@
+{
+  "baseline_features": [
+    "spot_log_return_1000ms",
+    "spot_log_return_5000ms",
+    "spot_quantity_imbalance_1000ms",
+    "spot_quantity_imbalance_5000ms",
+    "spot_signed_notional_1000ms",
+    "spot_signed_notional_5000ms",
+    "spot_trade_count_1000ms",
+    "spot_trade_count_5000ms",
+    "spot_notional_1000ms",
+    "spot_notional_5000ms",
+    "spot_realised_volatility_1000ms",
+    "spot_realised_volatility_5000ms"
+  ],
+  "config_name": "btc-eth-development",
+  "expanded_features": [
+    "spot_log_return_1000ms",
+    "spot_log_return_5000ms",
+    "spot_quantity_imbalance_1000ms",
+    "spot_quantity_imbalance_5000ms",
+    "spot_signed_notional_1000ms",
+    "spot_signed_notional_5000ms",
+    "spot_trade_count_1000ms",
+    "spot_trade_count_5000ms",
+    "spot_notional_1000ms",
+    "spot_notional_5000ms",
+    "spot_realised_volatility_1000ms",
+    "spot_realised_volatility_5000ms",
+    "perpetual_log_return_1000ms",
+    "perpetual_log_return_5000ms",
+    "perpetual_quantity_imbalance_1000ms",
+    "perpetual_quantity_imbalance_5000ms",
+    "perpetual_signed_notional_1000ms",
+    "perpetual_signed_notional_5000ms",
+    "perpetual_trade_count_1000ms",
+    "perpetual_trade_count_5000ms",
+    "perpetual_realised_volatility_1000ms",
+    "perpetual_realised_volatility_5000ms",
+    "spot_perp_log_basis",
+    "spot_perp_basis_change_1000ms",
+    "spot_perp_basis_zscore_10000ms",
+    "perpetual_spot_relative_quantity_1000ms",
+    "perpetual_spot_relative_intensity_1000ms"
+  ],
+  "failures": 0,
+  "feature_manifest_hash": "09ca1436a008689081441071f439ac6e13d4fbc7a5689876e82f5e21eafe1f3c",
+  "folds": [
+    {
+      "evaluation_dates": [
+        "2025-01-12",
+        "2025-01-13",
+        "2025-01-14",
+        "2025-01-15",
+        "2025-01-16"
+      ],
+      "fold": 1,
+      "train_dates": [
+        "2025-01-02",
+        "2025-01-03",
+        "2025-01-04",
+        "2025-01-05",
+        "2025-01-06",
+        "2025-01-07",
+        "2025-01-08",
+        "2025-01-09",
+        "2025-01-10",
+        "2025-01-11"
+      ]
+    },
+    {
+      "evaluation_dates": [
+        "2025-01-17",
+        "2025-01-18",
+        "2025-01-19",
+        "2025-01-20",
+        "2025-01-21"
+      ],
+      "fold": 2,
+      "train_dates": [
+        "2025-01-02",
+        "2025-01-03",
+        "2025-01-04",
+        "2025-01-05",
+        "2025-01-06",
+        "2025-01-07",
+        "2025-01-08",
+        "2025-01-09",
+        "2025-01-10",
+        "2025-01-11",
+        "2025-01-12",
+        "2025-01-13",
+        "2025-01-14",
+        "2025-01-15",
+        "2025-01-16"
+      ]
+    },
+    {
+      "evaluation_dates": [
+        "2025-01-22",
+        "2025-01-23",
+        "2025-01-24",
+        "2025-01-25",
+        "2025-01-26"
+      ],
+      "fold": 3,
+      "train_dates": [
+        "2025-01-02",
+        "2025-01-03",
+        "2025-01-04",
+        "2025-01-05",
+        "2025-01-06",
+        "2025-01-07",
+        "2025-01-08",
+        "2025-01-09",
+        "2025-01-10",
+        "2025-01-11",
+        "2025-01-12",
+        "2025-01-13",
+        "2025-01-14",
+        "2025-01-15",
+        "2025-01-16",
+        "2025-01-17",
+        "2025-01-18",
+        "2025-01-19",
+        "2025-01-20",
+        "2025-01-21"
+      ]
+    },
+    {
+      "evaluation_dates": [
+        "2025-01-27",
+        "2025-01-28",
+        "2025-01-29",
+        "2025-01-30",
+        "2025-01-31"
+      ],
+      "fold": 4,
+      "train_dates": [
+        "2025-01-02",
+        "2025-01-03",
+        "2025-01-04",
+        "2025-01-05",
+        "2025-01-06",
+        "2025-01-07",
+        "2025-01-08",
+        "2025-01-09",
+        "2025-01-10",
+        "2025-01-11",
+        "2025-01-12",
+        "2025-01-13",
+        "2025-01-14",
+        "2025-01-15",
+        "2025-01-16",
+        "2025-01-17",
+        "2025-01-18",
+        "2025-01-19",
+        "2025-01-20",
+        "2025-01-21",
+        "2025-01-22",
+        "2025-01-23",
+        "2025-01-24",
+        "2025-01-25",
+        "2025-01-26"
+      ]
+    }
+  ],
+  "manifest_hash": "3043e85c631ce88bc320ee340f8493de38cba71b1e8b730815e5e00f3afe7dc0",
+  "outputs": {
+    "bootstrap": "28131a49909f80209408feb5341e80bed72de4910ebb6e444977260deb321184",
+    "daily_metrics": "d477183ebfdc5dbbf5696ddd75ae77c02f81691c7eed7b84d70f03b9d532639a",
+    "deciles": "c2d71c4c1340337895756f619bc0ae3954c610f430c3665032dd307eb8521493",
+    "failures": "33b07f3b086ece9275910a78175522d3d774ccc06a4ef4ee619e8b032b7a4a5a",
+    "fold_metrics": "e41c6784cda89439804effad0a61da30afe157d6b0ee68b33f6d5d8b870418b5",
+    "hac": "903b35292690a444248f0b2f688db50e4fbe4254e76417ce2b74b927af125dfd",
+    "summary": "7d80cdc424ae3687f5b9f5b36a5cac1954f21c6c2c81a0c58fa9d7c55c7facfc"
+  },
+  "phase": 4,
+  "random_seed": 20260825
+}

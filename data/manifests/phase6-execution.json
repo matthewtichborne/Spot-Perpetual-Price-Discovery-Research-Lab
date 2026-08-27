@@ -1,0 +1,33 @@
+{
+  "config_sha256": "d4d11bc727cee1402bb14f442e3c0790aca3801654f781dee0a32347bd8c1369",
+  "development_volatility": {
+    "BTCUSDT": 4.522705732125088e-05,
+    "ETHUSDT": 9.702805554867659e-05
+  },
+  "evaluation_config": "btc-eth-confirmation",
+  "final_model_specification_hash": "fe69b128d018481b8db3e663668e012f3d5bd964f68316d9d0d1fde36deac570",
+  "ledgers": {
+    "asset": "9a82582a3e437da72a2706554bd81775fdc704bd4a173d5ace88321c21909c60",
+    "portfolio": "1196c5e3840fc41fcb652ad4755189342feae725137157ecdc2539f0c485ec58"
+  },
+  "manifest_hash": "4fb42df4d371786a489d2eeb3f1c502743715b5c848c2c2d3b9924d16cd8acff",
+  "outputs": {
+    "daily": "a894ebc5fc4f680e44d0937dd4fa9d6ab09f54b6c01068c6c976329ff5742762",
+    "diagnostics": "7c88629341c72d2edd9cd75b322f12a103185292219e6380fb24b28a8b11087c",
+    "figure": "2018cedf443f19b55b1fd110613c8a7b60c096c6eb4ebd5c96d349d896917f4a",
+    "regimes": "44ca7bdb4674c228bceb33619b746fa2bfec6fe2b0151d4eb0e16b2c48b192e7",
+    "sensitivity": "f058b6ab9e1ec11cd62c94c10c80bdc0ff032412b1d0677e761ea0b6805c158e",
+    "summary": "41a9b091ff65214e4fea6dae80cb6431addc5928e67d787181e343703ad76874"
+  },
+  "phase": 6,
+  "portfolio_weights": {
+    "BTCUSDT": 0.682070778274207,
+    "ETHUSDT": 0.317929221725793
+  },
+  "primary_conclusion": "does not survive the registered cost assumption",
+  "protocol_sha256": "b28a65651d97eca5093370956d49688ee74fd0505f0406c24edc7b988f2b5584",
+  "thresholds": {
+    "BTCUSDT": 3.21160127895846e-05,
+    "ETHUSDT": 3.352290642599895e-05
+  }
+}

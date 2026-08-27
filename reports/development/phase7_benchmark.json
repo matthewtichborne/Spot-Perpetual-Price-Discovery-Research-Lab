@@ -1,0 +1,48 @@
+{
+  "cpp": {
+    "events_per_second": 45818096.41568376,
+    "median_seconds": 0.04365087501355447,
+    "seconds": [
+      0.04350333398906514,
+      0.04372045898344368,
+      0.04365087501355447
+    ]
+  },
+  "environment": {
+    "compiler": "Apple LLVM 17.0.0 (clang-1700.3.19.1)",
+    "machine": "arm64",
+    "platform": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+    "processor": "arm",
+    "python": "3.13.5",
+    "release": "24.6.0",
+    "system": "Darwin"
+  },
+  "method": {
+    "build_type": "Release",
+    "end_ns": 1735779600000000000,
+    "events_per_market": 1000000,
+    "grid_rows": 36000,
+    "interval_ns": 100000000,
+    "parity_atol": 1e-12,
+    "parity_rtol": 1e-12,
+    "perpetual_seed": 23,
+    "spot_seed": 17,
+    "start_ns": 1735776000000000000,
+    "timed_repeats": 3,
+    "total_events": 2000000,
+    "warmup_calls": 1
+  },
+  "parity": "passed",
+  "python": {
+    "events_per_second": 560400.2807383639,
+    "median_seconds": 3.568877584009897,
+    "seconds": [
+      3.568877584009897,
+      3.5703546660079155,
+      3.564068292005686
+    ]
+  },
+  "run_timestamp_utc": "2026-08-27T09:30:10.660501+00:00",
+  "scope": "bounded equivalent-work two-market merge and fixed-grid aggregation; not Polars or end-to-end pipeline speed-up",
+  "speedup": 81.759588619969
+}

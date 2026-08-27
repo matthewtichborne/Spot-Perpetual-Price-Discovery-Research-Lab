@@ -1,0 +1,11 @@
+{
+  "confirmation_config_sha256": "6658feb6e5bfd477493635ed73a9ca6928b785faab085a1ea32d5882c0e565f8",
+  "confirmation_data_present_at_freeze": false,
+  "development_phase4_file_sha256": "f0eaa4dfe7be27e0e3e61d30b103f0c340201d2d2133161fe3198170411e4644",
+  "final_config_sha256": "a4c8dfaf5ca2af0087966844b753b2a65573dd096d5c4c6e836b589cceb1f504",
+  "final_holdout_status": "sealed",
+  "freeze_date": "2026-08-26",
+  "phase5_protocol_sha256": "53a36afa5ab52c9d23194b69d405c8e3410ba1efca830b26dcdb5c0e49883013",
+  "research_design_sha256": "f1c6a1ee25ab3e443d58ea5527e6f278d5da5ad300b111a1ab50b714c0e5236d",
+  "status": "frozen_before_confirmation_access"
+}

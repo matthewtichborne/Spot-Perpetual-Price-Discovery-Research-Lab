@@ -1,6 +1,6 @@
 # Data dictionary
 
-## Canonical normalised trade event (planned for Phase 2)
+## Canonical normalised trade event (schema version 1)
 
 | Field | Type | Definition |
 |---|---|---|

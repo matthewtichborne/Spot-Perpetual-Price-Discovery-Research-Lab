@@ -1,0 +1,20 @@
+name: phase6-confirmation-backtest
+development_config: configs/development.yaml
+evaluation_config: configs/confirmation.yaml
+reports_dir: reports/development
+ledger_dir: data/processed/phase6
+holding_seconds: 5
+signal_threshold_sigma: 1.0
+latencies_ms: [100, 500, 1000, 2000, 5000]
+primary_latency_ms: 500
+entry_fee_bps: 2.0
+exit_fee_bps: 2.0
+slippage_bps_per_side: 1.0
+spread_proxy_bps_per_side: 0.5
+cost_sensitivity_roundtrip_bps: [0.0, 2.0, 5.0, 7.0, 10.0, 20.0]
+maximum_gross_exposure: 1.0
+inverse_volatility_minimum_multiplier: 0.25
+inverse_volatility_maximum_multiplier: 2.0
+daily_loss_limit: 0.02
+annualisation_days: 365
+random_seed: 20260825

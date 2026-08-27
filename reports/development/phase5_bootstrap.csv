@@ -1,0 +1,3 @@
+comparison,days,estimate,lower,upper,probability_positive
+ridge_baseline_minus_expanded_mse,20,4.584853738004804e-10,3.617854674289115e-10,5.580420057993714e-10,1.0
+ridge_minus_xgboost_mse,20,1.9774622374293696e-10,1.6036956552828276e-10,2.445550435786224e-10,1.0

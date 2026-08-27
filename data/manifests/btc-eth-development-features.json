@@ -1,0 +1,614 @@
+{
+  "config_name": "btc-eth-development",
+  "feature_config": {
+    "base_interval_ms": 100,
+    "basis_z_window_ms": 10000,
+    "decision_interval_ms": 1000,
+    "feature_lag_bars": 1,
+    "label_horizons_ms": [
+      1000,
+      5000,
+      10000
+    ],
+    "output_dir": "data/processed/features",
+    "windows_ms": [
+      100,
+      500,
+      1000,
+      5000,
+      10000
+    ]
+  },
+  "feature_schema_version": "1",
+  "files": [
+    {
+      "date": "2025-01-02",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-02/features.parquet",
+      "rows": 86394,
+      "sha256": "c2ab27feb11c875eede6bd9e9f5be5b3b9db027e13d1135d988d0a3356a161f5",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-02",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-02/features.parquet",
+      "rows": 86394,
+      "sha256": "d3998e7293e47aba5b853678ea60301ddc3afa08fe00ed51ff3a78f93528740b",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-03",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-03/features.parquet",
+      "rows": 86399,
+      "sha256": "3e7c5752b1a10c54a7f260b689f8f40b156ca47c1c55b49dc5c50ad9c8faa23a",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-03",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-03/features.parquet",
+      "rows": 86394,
+      "sha256": "a3194ed673652d0c02e3f76da08b0a5e7cb2a74513ba07b4aa8bb3f789c9c8af",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-04",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-04/features.parquet",
+      "rows": 86394,
+      "sha256": "17e0523dbc2643e146abd62376920fc134ea2b0e14dcb504489cb2c96e5206c1",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-04",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-04/features.parquet",
+      "rows": 86399,
+      "sha256": "44468516d7bf92349de789aa913887b4b749acaa578598bd276b181e5781e481",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-05",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-05/features.parquet",
+      "rows": 86399,
+      "sha256": "d6e8aa77de864cda8404f038ee6df62429626ef5544685190e9186eb39231abb",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-05",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-05/features.parquet",
+      "rows": 86394,
+      "sha256": "4ca260bd4800a3ff6903dc79576c345a4b65596da522d30683396ecb50ee6f75",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-06",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-06/features.parquet",
+      "rows": 86394,
+      "sha256": "e398c301b9353757399f15188581385c189b4c36d236baf34ad486c29e03caa1",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-06",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-06/features.parquet",
+      "rows": 86394,
+      "sha256": "75db0c38fa399cdfaa52e84064105592127466d37726d182cf705e63367d29bd",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-07",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-07/features.parquet",
+      "rows": 86394,
+      "sha256": "bab3e7b19ba400efeedfea6683033fa90cb21a6f64c01c83cd51c30c239908ce",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-07",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-07/features.parquet",
+      "rows": 86394,
+      "sha256": "682cfff438a61478d3c2cce88e853638236fb053650ba36e01fec382f8bdddbd",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-08",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-08/features.parquet",
+      "rows": 86394,
+      "sha256": "3fea846b2ed055a08ba3aced1a1bd774f2f198824fa4d246183ec0cd345f89c2",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-08",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-08/features.parquet",
+      "rows": 86394,
+      "sha256": "63672682c155cda92b042302f819e5f7faf98c8fc9180e06588bd227784af4a1",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-09",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-09/features.parquet",
+      "rows": 86394,
+      "sha256": "86136f094ec5c2789c4a1fed9473cc6312913fae4a15c4bf5b0d357085790e1a",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-09",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-09/features.parquet",
+      "rows": 86394,
+      "sha256": "116eb72ed8b85c34176b21ff25d4f80015c2709e47a3e32d5633f99af365976a",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-10",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-10/features.parquet",
+      "rows": 86394,
+      "sha256": "2556e193ed04c9c27ccd2754dec24e9aa4de3b3e5f627c454f1153c38194747c",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-10",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-10/features.parquet",
+      "rows": 86394,
+      "sha256": "d23711ca90058b16bcdabbab7c01e248f8642fcf5902cff6297c3ec6da170832",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-11",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-11/features.parquet",
+      "rows": 86399,
+      "sha256": "ba57c9efd9a956f39cd6700081caecd95fc3c2ad6220f926838225817f11cbf6",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-11",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-11/features.parquet",
+      "rows": 86394,
+      "sha256": "323a7e0fb6ce61f601dcd64207337cac6ebb38b137568666cc0f2d7d76d899b5",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-12",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-12/features.parquet",
+      "rows": 86399,
+      "sha256": "255b554bc2b96b258457b2f04ca82b0369356d96ede31619c8ed7e8fc65faad8",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-12",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-12/features.parquet",
+      "rows": 86394,
+      "sha256": "ff0603676fe9b6d8c863e9a65f5710c16b7ff88696d36fec0810bad3d1ff47cc",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-13",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-13/features.parquet",
+      "rows": 86394,
+      "sha256": "bc5c112194ee9ee23652d248cb3ef790422dc4280590b9bc9c663d027b316dc4",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-13",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-13/features.parquet",
+      "rows": 86394,
+      "sha256": "4b965b4837a5d847417a3d2ab502766211ac4adcee24519e75dfd056cd18c576",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-14",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-14/features.parquet",
+      "rows": 86395,
+      "sha256": "281338186726a46316731d91790a60dfeb2961a415ba55b96abd15554769eb27",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-14",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-14/features.parquet",
+      "rows": 86399,
+      "sha256": "c52f322fac0aa2904e37a61e3ec2af7dbda50cf876cec901b466a6ee895b58ab",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-15",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-15/features.parquet",
+      "rows": 86394,
+      "sha256": "56e1ae892a5d0d2744950b47f7445d6bc93cb002eb7ebceb1b399dc30c86e774",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-15",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-15/features.parquet",
+      "rows": 86394,
+      "sha256": "ff45a12514f4de3a47720f8b330225e8234c8dec0a14ba0b1618abdd10ca9a6c",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-16",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-16/features.parquet",
+      "rows": 86395,
+      "sha256": "b4ee3f2c60f46af6ad53bf9beeb736646c34096847edee4918e19e8497ac2a44",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-16",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-16/features.parquet",
+      "rows": 86394,
+      "sha256": "3070af2343a6a37262f426ae09963db3be49d78693d8607fac84d4625db59857",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-17",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-17/features.parquet",
+      "rows": 86394,
+      "sha256": "4239015098d0597aaf47777557d04890b1c6b89469eaf51ba86acae4233634cd",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-17",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-17/features.parquet",
+      "rows": 86394,
+      "sha256": "89a1594be4ce17618d37d654ccd0e112026d1dc925a780b29d1b3c797d2b8cbf",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-18",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-18/features.parquet",
+      "rows": 86394,
+      "sha256": "1b97b0382c97559c265f7144bb1e6d9b1d2a82509fcd53d7c3babd62102e6144",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-18",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-18/features.parquet",
+      "rows": 86394,
+      "sha256": "849b3345fb02f7568db1b570e10e2b16425b5cff6cda8cef115e3c9a048a23aa",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-19",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-19/features.parquet",
+      "rows": 86394,
+      "sha256": "d1b7e88638f128bb78235902a26e883797e9a5d4ef6d93f9954cf04d9b4b111d",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-19",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-19/features.parquet",
+      "rows": 86394,
+      "sha256": "e81c8c7e00e255a9fe5f0a50fc55f0b4512b8a698e31d796f1cc13161e3ad03c",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-20",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-20/features.parquet",
+      "rows": 86394,
+      "sha256": "749e5c9e4f592714c13b67d67fc19bfc6cbfa52db90351049c87bc0c8c2e0805",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-20",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-20/features.parquet",
+      "rows": 86399,
+      "sha256": "ab1a92edc21ab9558bcc5cae2218074a6b10e3459c4bb5ed22a8dc270ea6d247",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-21",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-21/features.parquet",
+      "rows": 86399,
+      "sha256": "d8cbd399c1eb1660a4f4a464627767428f269dcf7a44de90ffa0b4b98bd71e51",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-21",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-21/features.parquet",
+      "rows": 86396,
+      "sha256": "3214df5e1ecab29d2633e2f8ae2d8e96fc0e2d79679c93168326666ed067f808",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-22",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-22/features.parquet",
+      "rows": 86399,
+      "sha256": "efc6f70124cd4f207c9707c60200dfe67566f5498da4ba62cc0a8c7dafa841c5",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-22",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-22/features.parquet",
+      "rows": 86399,
+      "sha256": "18dcd57942585ceae6db3b72bfa7bed978460cd874363e6394a9f7766f2ccbee",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-23",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-23/features.parquet",
+      "rows": 86394,
+      "sha256": "1461bf1a35593416ad4cca1d4a05e5a007c3da4b5d6f2011c3c009d2d9637ff5",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-23",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-23/features.parquet",
+      "rows": 86394,
+      "sha256": "1161f801af9b54a0004ee37d6c1e562de2290612d77418c825a701f44183e9c0",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-24",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-24/features.parquet",
+      "rows": 86399,
+      "sha256": "ff1b5f16469bb899fbb91b85544ca82203054bf81df4417f82d8efbd8b2cb675",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-24",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-24/features.parquet",
+      "rows": 86399,
+      "sha256": "327521d658d7083669d2168bb7c571d2e0aad11f12d7c6d25b39dc616ad5b7f2",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-25",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-25/features.parquet",
+      "rows": 86394,
+      "sha256": "bb0caddf68f9856ec129c9b7ff60c08c29d38d8f50abdb80cfab2a2a14d99523",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-25",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-25/features.parquet",
+      "rows": 86399,
+      "sha256": "734ec0992b5efc7a86c29feb945111eb4e0c547436f311ebc0acd3977e0bf30e",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-26",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-26/features.parquet",
+      "rows": 86394,
+      "sha256": "fccd09dc1a3d89a51fb00116be4f118d947dab9b9042db46dd80e30dcca9db46",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-26",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-26/features.parquet",
+      "rows": 86399,
+      "sha256": "30d0560eaabea17779aef61f44e32c4b77760605f8928ba5726b75ff05c154c5",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-27",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-27/features.parquet",
+      "rows": 86394,
+      "sha256": "59809012ea25895d44beef8088969a0602f9bf387a766efb13b7f40ce356c98a",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-27",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-27/features.parquet",
+      "rows": 86394,
+      "sha256": "c9934a8b5ff59fbfc6b1f0960f69ddd525db787d5703c60be6c67ba1307f29cd",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-28",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-28/features.parquet",
+      "rows": 86394,
+      "sha256": "a2d1cfada19637b5f620fe4b7f4a489b387972548276833f737594d25eb8a73f",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-28",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-28/features.parquet",
+      "rows": 86399,
+      "sha256": "2f0c38dc0c341c7db0eea22b50f698fc44e71b098bd0e09376a78c8ae21eeeb0",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-29",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-29/features.parquet",
+      "rows": 86394,
+      "sha256": "6f0cb0291abedc5a232ee9291d914e8ed1caaf684500950b29b191c975c4c722",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-29",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-29/features.parquet",
+      "rows": 86394,
+      "sha256": "be1660384f7e2f9fe61541fd2f9e7df3b59b31e392188e7b4f66d7f59cf24741",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-30",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-30/features.parquet",
+      "rows": 86394,
+      "sha256": "68d48930c1fbafe2d44677c8ba00c910320953fa925ffda4da0ccb55dcde3400",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-30",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-30/features.parquet",
+      "rows": 86394,
+      "sha256": "795141e1553e28f82be6498d78e5e8522e05739a43dc5e247b2c04d99578468a",
+      "symbol": "ETHUSDT"
+    },
+    {
+      "date": "2025-01-31",
+      "file": "data/processed/features/btc-eth-development/symbol=BTCUSDT/date=2025-01-31/features.parquet",
+      "rows": 86399,
+      "sha256": "10f1f4e7e7f742a51546913f111f4e08acf0fb42926dc9b72563b8196848ccd2",
+      "symbol": "BTCUSDT"
+    },
+    {
+      "date": "2025-01-31",
+      "file": "data/processed/features/btc-eth-development/symbol=ETHUSDT/date=2025-01-31/features.parquet",
+      "rows": 86394,
+      "sha256": "9e2e5f6ab1f5d8bd8edb8ce2042773cf107f5e66348f7e51c8a6e7e5e20465b0",
+      "symbol": "ETHUSDT"
+    }
+  ],
+  "labels": [
+    "target_spot_log_return_1000ms",
+    "target_spot_direction_1000ms",
+    "target_spot_log_return_5000ms",
+    "target_spot_direction_5000ms",
+    "target_spot_log_return_10000ms",
+    "target_spot_direction_10000ms"
+  ],
+  "manifest_hash": "09ca1436a008689081441071f439ac6e13d4fbc7a5689876e82f5e21eafe1f3c",
+  "predictors": [
+    "spot_signed_quantity_100ms",
+    "spot_signed_notional_100ms",
+    "spot_quantity_100ms",
+    "spot_notional_100ms",
+    "spot_quantity_imbalance_100ms",
+    "spot_notional_imbalance_100ms",
+    "spot_buyer_trades_100ms",
+    "spot_seller_trades_100ms",
+    "spot_trade_count_100ms",
+    "spot_arrival_intensity_100ms",
+    "spot_average_trade_size_100ms",
+    "spot_log_return_100ms",
+    "spot_realised_volatility_100ms",
+    "spot_flow_volatility_interaction_100ms",
+    "spot_signed_quantity_500ms",
+    "spot_signed_notional_500ms",
+    "spot_quantity_500ms",
+    "spot_notional_500ms",
+    "spot_quantity_imbalance_500ms",
+    "spot_notional_imbalance_500ms",
+    "spot_buyer_trades_500ms",
+    "spot_seller_trades_500ms",
+    "spot_trade_count_500ms",
+    "spot_arrival_intensity_500ms",
+    "spot_average_trade_size_500ms",
+    "spot_log_return_500ms",
+    "spot_realised_volatility_500ms",
+    "spot_flow_volatility_interaction_500ms",
+    "spot_signed_quantity_1000ms",
+    "spot_signed_notional_1000ms",
+    "spot_quantity_1000ms",
+    "spot_notional_1000ms",
+    "spot_quantity_imbalance_1000ms",
+    "spot_notional_imbalance_1000ms",
+    "spot_buyer_trades_1000ms",
+    "spot_seller_trades_1000ms",
+    "spot_trade_count_1000ms",
+    "spot_arrival_intensity_1000ms",
+    "spot_average_trade_size_1000ms",
+    "spot_log_return_1000ms",
+    "spot_realised_volatility_1000ms",
+    "spot_flow_volatility_interaction_1000ms",
+    "spot_signed_quantity_5000ms",
+    "spot_signed_notional_5000ms",
+    "spot_quantity_5000ms",
+    "spot_notional_5000ms",
+    "spot_quantity_imbalance_5000ms",
+    "spot_notional_imbalance_5000ms",
+    "spot_buyer_trades_5000ms",
+    "spot_seller_trades_5000ms",
+    "spot_trade_count_5000ms",
+    "spot_arrival_intensity_5000ms",
+    "spot_average_trade_size_5000ms",
+    "spot_log_return_5000ms",
+    "spot_realised_volatility_5000ms",
+    "spot_flow_volatility_interaction_5000ms",
+    "spot_signed_quantity_10000ms",
+    "spot_signed_notional_10000ms",
+    "spot_quantity_10000ms",
+    "spot_notional_10000ms",
+    "spot_quantity_imbalance_10000ms",
+    "spot_notional_imbalance_10000ms",
+    "spot_buyer_trades_10000ms",
+    "spot_seller_trades_10000ms",
+    "spot_trade_count_10000ms",
+    "spot_arrival_intensity_10000ms",
+    "spot_average_trade_size_10000ms",
+    "spot_log_return_10000ms",
+    "spot_realised_volatility_10000ms",
+    "spot_flow_volatility_interaction_10000ms",
+    "perpetual_signed_quantity_100ms",
+    "perpetual_signed_notional_100ms",
+    "perpetual_quantity_100ms",
+    "perpetual_notional_100ms",
+    "perpetual_quantity_imbalance_100ms",
+    "perpetual_notional_imbalance_100ms",
+    "perpetual_buyer_trades_100ms",
+    "perpetual_seller_trades_100ms",
+    "perpetual_trade_count_100ms",
+    "perpetual_arrival_intensity_100ms",
+    "perpetual_average_trade_size_100ms",
+    "perpetual_log_return_100ms",
+    "perpetual_realised_volatility_100ms",
+    "perpetual_flow_volatility_interaction_100ms",
+    "perpetual_signed_quantity_500ms",
+    "perpetual_signed_notional_500ms",
+    "perpetual_quantity_500ms",
+    "perpetual_notional_500ms",
+    "perpetual_quantity_imbalance_500ms",
+    "perpetual_notional_imbalance_500ms",
+    "perpetual_buyer_trades_500ms",
+    "perpetual_seller_trades_500ms",
+    "perpetual_trade_count_500ms",
+    "perpetual_arrival_intensity_500ms",
+    "perpetual_average_trade_size_500ms",
+    "perpetual_log_return_500ms",
+    "perpetual_realised_volatility_500ms",
+    "perpetual_flow_volatility_interaction_500ms",
+    "perpetual_signed_quantity_1000ms",
+    "perpetual_signed_notional_1000ms",
+    "perpetual_quantity_1000ms",
+    "perpetual_notional_1000ms",
+    "perpetual_quantity_imbalance_1000ms",
+    "perpetual_notional_imbalance_1000ms",
+    "perpetual_buyer_trades_1000ms",
+    "perpetual_seller_trades_1000ms",
+    "perpetual_trade_count_1000ms",
+    "perpetual_arrival_intensity_1000ms",
+    "perpetual_average_trade_size_1000ms",
+    "perpetual_log_return_1000ms",
+    "perpetual_realised_volatility_1000ms",
+    "perpetual_flow_volatility_interaction_1000ms",
+    "perpetual_signed_quantity_5000ms",
+    "perpetual_signed_notional_5000ms",
+    "perpetual_quantity_5000ms",
+    "perpetual_notional_5000ms",
+    "perpetual_quantity_imbalance_5000ms",
+    "perpetual_notional_imbalance_5000ms",
+    "perpetual_buyer_trades_5000ms",
+    "perpetual_seller_trades_5000ms",
+    "perpetual_trade_count_5000ms",
+    "perpetual_arrival_intensity_5000ms",
+    "perpetual_average_trade_size_5000ms",
+    "perpetual_log_return_5000ms",
+    "perpetual_realised_volatility_5000ms",
+    "perpetual_flow_volatility_interaction_5000ms",
+    "perpetual_signed_quantity_10000ms",
+    "perpetual_signed_notional_10000ms",
+    "perpetual_quantity_10000ms",
+    "perpetual_notional_10000ms",
+    "perpetual_quantity_imbalance_10000ms",
+    "perpetual_notional_imbalance_10000ms",
+    "perpetual_buyer_trades_10000ms",
+    "perpetual_seller_trades_10000ms",
+    "perpetual_trade_count_10000ms",
+    "perpetual_arrival_intensity_10000ms",
+    "perpetual_average_trade_size_10000ms",
+    "perpetual_log_return_10000ms",
+    "perpetual_realised_volatility_10000ms",
+    "perpetual_flow_volatility_interaction_10000ms",
+    "spot_perp_log_basis",
+    "spot_perp_basis_change_100ms",
+    "perpetual_spot_relative_quantity_100ms",
+    "perpetual_spot_relative_intensity_100ms",
+    "spot_perp_basis_change_500ms",
+    "perpetual_spot_relative_quantity_500ms",
+    "perpetual_spot_relative_intensity_500ms",
+    "spot_perp_basis_change_1000ms",
+    "perpetual_spot_relative_quantity_1000ms",
+    "perpetual_spot_relative_intensity_1000ms",
+    "spot_perp_basis_change_5000ms",
+    "perpetual_spot_relative_quantity_5000ms",
+    "perpetual_spot_relative_intensity_5000ms",
+    "spot_perp_basis_change_10000ms",
+    "perpetual_spot_relative_quantity_10000ms",
+    "perpetual_spot_relative_intensity_10000ms",
+    "spot_perp_basis_zscore_10000ms"
+  ],
+  "source_manifest_hash": "af54ff12c3f070485ceccf5e6da78f31fc7be404655f82e97b87727049f92b40"
+}

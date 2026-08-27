@@ -1,0 +1,20 @@
+Phase 7 pre-C++ Python profile
+events_per_market=100000
+interval_ns=100000000
+window_ns=3600000000000
+
+         1200038 function calls in 0.565 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.463    0.463    0.565    0.565 reference.py:81(replay_reference)
+   600007    0.071    0.000    0.101    0.000 reference.py:44(size)
+   600007    0.030    0.000    0.030    0.000 {built-in method builtins.len}
+       14    0.000    0.000    0.000    0.000 {built-in method numpy.zeros}
+        2    0.000    0.000    0.000    0.000 numeric.py:323(full)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 reference.py:64(_validate_bounds)
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.arange}
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.empty}
+        2    0.000    0.000    0.000    0.000 multiarray.py:1088(copyto)

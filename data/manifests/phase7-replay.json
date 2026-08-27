@@ -1,0 +1,43 @@
+{
+  "benchmark": "36290de95bc48652aa903c640b8f6ead845f3252f172c10fa69479c1fa709d99",
+  "environment": {
+    "compiler": "Apple LLVM 17.0.0 (clang-1700.3.19.1)",
+    "machine": "arm64",
+    "platform": "macOS-15.7.3-arm64-arm-64bit-Mach-O",
+    "processor": "arm",
+    "python": "3.13.5",
+    "release": "24.6.0",
+    "system": "Darwin"
+  },
+  "manifest_hash": "d1090ab691d787338dee94a11f9b1837b615747572c6dfe486fc17d8e95a89b5",
+  "method": {
+    "build_type": "Release",
+    "end_ns": 1735779600000000000,
+    "events_per_market": 1000000,
+    "grid_rows": 36000,
+    "interval_ns": 100000000,
+    "parity_atol": 1e-12,
+    "parity_rtol": 1e-12,
+    "perpetual_seed": 23,
+    "spot_seed": 17,
+    "start_ns": 1735776000000000000,
+    "timed_repeats": 3,
+    "total_events": 2000000,
+    "warmup_calls": 1
+  },
+  "parity": "passed",
+  "phase": 7,
+  "scope": "bounded equivalent-work two-market merge and fixed-grid aggregation; not Polars or end-to-end pipeline speed-up",
+  "sources": {
+    "cmake": "594de66126230eecfaa9fb5028ad7fb65ecc33694b29fcb3514271812fccf438",
+    "cpp_bindings": "1b72d53a931b3738ecdd45ae935c71bb0f3c14fa74cc457389f7468e895542f5",
+    "cpp_core": "5a1780a18c2fd9722b80e875e9d78fb2b1ad087c60af40bbf2f2a0bd5c8ac970",
+    "cpp_header": "fc393a2375b4289c283a5cc5d823668757fc8959dfe985e63403f148a258d225",
+    "profile": "358f9b4fa99bec223dcaeabfbc122789dea44877062f56a3ac285046a7e68521",
+    "protocol": "3a83878dee5beef29059a73e34c685d7d9c877c83727891b93c6b88120c2b035",
+    "python_reference": "db7a71b740fb5056fd4b072e84292b7958e1b72c56363e7340474219b3c4833a",
+    "python_wrapper": "7e3be29498fce944af17dfe3c7f7e32935663b5fa187cc80f0515724fcebb021"
+  },
+  "speedup": 81.759588619969,
+  "summary": "c4428b0bec47b3e3bc0caeec385fe053ba241b4ab64e4d4ff4470c1e598c0977"
+}
